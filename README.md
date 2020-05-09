@@ -4,3 +4,4 @@ Linear search, Binary search, Fibonacci-dynamic programming solution, blurring a
 A small "to-do list" app, which aims to showcase that I can look up documentation and understand the logic of programming;
 basic face recognition using cv2 library; 
 speech recognition using speech_recognition library and regular expression;
+merge sort;
