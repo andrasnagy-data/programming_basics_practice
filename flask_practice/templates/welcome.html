@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block body%}
+
+<h1>All about productivity!</h1>
+<form action="/todo" method="post">
+<img src="https://miro.medium.com/max/1400/1*SCviura51xmsnBUYxonRIg.jpeg" alt="How to be productive" width="500">
+<h2>With this small app, you can list all your tasks and decide what to do first, based on the above matrix.</h2>
+<input autocomplete="off" autofocus name="task" placeholder="task" type="text">
+<select name="date">
+    <option disabled selected value="">date</option>
+    <option value="today">today</option>
+    <option value="not today">not today</option>
+</select>
+<select name="importance">
+    <option disabled selected value="">importance</option>
+    <option value="important">important</option>
+    <option value="not important">not important</option>
+</select>
+<input type="submit" value="Submit">
+</form>
+
+{% endblock %}
