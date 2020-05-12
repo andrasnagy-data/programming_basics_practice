@@ -7,3 +7,4 @@ A small "to-do list" app, which aims to showcase that I can look up documentatio
 basic face recognition using cv2 library; 
 speech recognition using speech_recognition library and regular expression;
 merge sort;
+twitter scraping with tweepy, saving the stream to JSON;
